@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.fit2cloud</groupId>
-    <artifactId>module-demo</artifactId>
+    <groupId>com.fit2cloud.yiqi.release</groupId>
+    <artifactId>fit2cloud2.0-vmware</artifactId>
     <version>2.0.0</version>
     <packaging>jar</packaging>
 
-    <name>fit2cloud2.0-module-demo</name>
-    <description>Module demo project for FIT2CLOUD 2.0</description>
+    <name>fit2cloud2.0-vmware</name>
+    <description>Vmware project for FIT2CLOUD 2.0</description>
 
     <parent>
         <artifactId>commons-parent</artifactId>
@@ -26,12 +26,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.fit2cloud</groupId>
+            <groupId>com.fit2cloud.yiqi.release</groupId>
             <artifactId>common-web</artifactId>
             <version>${fit2cloud-version}</version>
         </dependency>
         <dependency>
-            <groupId>com.fit2cloud</groupId>
+            <groupId>com.fit2cloud.yiqi.release</groupId>
             <artifactId>server-public</artifactId>
             <version>${fit2cloud-version}</version>
         </dependency>
