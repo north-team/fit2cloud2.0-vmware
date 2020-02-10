@@ -7,7 +7,6 @@
       "icon": "account_box",
       "url": "/dashboard",
       "name": "dashboard",
-      "templateUrl": "project/html/demo/dashboard.html",
       "requiredPermissions": [
         {
           "role": "ADMIN",
