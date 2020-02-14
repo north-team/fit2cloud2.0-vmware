@@ -5,7 +5,7 @@
       "order": 1,
       "title": "进入云管平台",
       "icon": "link",
-      "url": "/skip/toVmware?module=vm-service",
+      "url": "skip/toVmware?module=vm-service",
       "name": "vmware",
       "open": "new",
       "requiredPermissions": [
