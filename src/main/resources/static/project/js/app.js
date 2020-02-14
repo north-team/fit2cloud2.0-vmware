@@ -89,8 +89,25 @@ var MENUS_TEST = {
     ]
 };
 
-ProjectApp.controller('DemoCtrl', function ($scope) {
+ProjectApp.controller('IndexCtrl', function ($scope) {
     $scope.module = MENUS_TEST;
+    $scope.menus = [
+        {
+            name: "ip",
+            url: "/ip",
+            params: {
+                ipPoolId: null,
+                ipPoolName:null
+            },
+            templateUrl: "project/html/ip-pool/ip-list.html" + '?_t=' + window.appversion
+        },
+        {
+            name: "app_role",
+            url: "/app_role",
+            params: {},
+            templateUrl: "project/html/cluster/role-list.html" + '?_t=' + window.appversion
+        }
+    ];
 });
 
 ProjectApp.controller('TableCtrl', function ($scope, $mdDialog, $mdBottomSheet, FilterSearch, Notification, HttpUtils, Loading) {

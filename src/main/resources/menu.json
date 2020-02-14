@@ -3,10 +3,11 @@
   "menu": [
     {
       "order": 1,
-      "title": "菜单1",
-      "icon": "account_box",
-      "url": "/dashboard",
-      "name": "dashboard",
+      "title": "进入云管平台",
+      "icon": "link",
+      "url": "/skip/toVmware?module=vm-service",
+      "name": "vmware",
+      "open": "new",
       "requiredPermissions": [
         {
           "role": "ADMIN",
